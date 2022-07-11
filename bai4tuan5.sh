@@ -1,5 +1,5 @@
 #! /bin/sh
-read -p "Nhap ten thu muc nhap vao: " m
+read -p "Nhap ten thu muc: " m
 tm=`find -name $m -type d`
 if [ -z $tm ]
 then
@@ -10,3 +10,4 @@ else
 	echo "So file: $file"
 	echo "So thu muc: $stm"
 fi
+exit 0
