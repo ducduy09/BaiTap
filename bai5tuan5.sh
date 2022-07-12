@@ -10,6 +10,7 @@ else
 	if [ -z $ref ]
 	then
 		echo `mv $n $m`
+		echo "doi ten thanh cong file $n thanh file $m"
 	else
 		echo "Ten file $m da ton tai"
 	fi
